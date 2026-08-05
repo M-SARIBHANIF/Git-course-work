@@ -1,0 +1,125 @@
+:root {
+  --ink: #0b1220;
+  --ink-deep: #070b12;
+  --cream: #f4e9d8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: radial-gradient(circle at 50% 42%, var(--ink) 0%, var(--ink-deep) 75%);
+  color: var(--cream);
+  font-family: 'IBM Plex Mono', ui-monospace, 'SF Mono', monospace;
+  overflow: hidden;
+}
+
+.stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orrery-canvas {
+  width: min(80vmin, 720px);
+  height: min(80vmin, 720px);
+  display: block;
+}
+
+.caption {
+  position: absolute;
+  left: 28px;
+  bottom: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.caption__eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  color: rgba(244, 233, 216, 0.55);
+}
+
+.caption__title {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--cream);
+}
+
+@media (max-width: 480px) {
+  .caption {
+    left: 18px;
+    bottom: 18px;
+  }
+  .caption__title {
+    font-size: 16px;
+  }
+}
+
+.spacecraft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 52px;
+  pointer-events: none;
+  will-change: transform, opacity;
+  animation: spacecraft-pass 16s linear infinite;
+}
+
+.spacecraft__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 6px rgba(244, 233, 216, 0.5));
+}
+
+.spacecraft__trail {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  width: 140px;
+  height: 2px;
+  background: linear-gradient(to left, rgba(244, 233, 216, 0.45), rgba(244, 233, 216, 0));
+  transform: translateY(-50%);
+}
+
+@keyframes spacecraft-pass {
+  0% {
+    transform: translate(-10vw, 78vh) rotate(-16deg);
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  36% {
+    transform: translate(108vw, 8vh) rotate(-16deg);
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(108vw, 8vh) rotate(-16deg);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spacecraft {
+    display: none;
+  }
+}
