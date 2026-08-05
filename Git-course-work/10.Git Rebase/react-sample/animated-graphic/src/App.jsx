@@ -8,7 +8,7 @@ export default function App() {
       <Spacecraft />
       <div className="caption">
         <span className="caption__eyebrow">ORR&nbsp;·&nbsp;01</span>
-        <span className="caption__title">a quiet orrery Resolved Conflict</span>
+        <span className="caption__title">a quiet orrery Rebase B</span>
       </div>
     </main>
   )
