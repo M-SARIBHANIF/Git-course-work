@@ -108,10 +108,6 @@ git config user.name
 
 > If you skip this step, `git commit` will stop and ask you to set `user.name` and `user.email` before it lets you commit.
 
-**Example — running both commands in Git Bash:**
-
-![Git Bash showing git config --global user.name and user.email commands](./assets/git-config-example.png)
-
 ## Typical first workflow
 
 ```bash
