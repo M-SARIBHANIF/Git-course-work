@@ -7,6 +7,7 @@ export default function App() {
       <div className="caption">
         <span className="caption__eyebrow">ORR&nbsp;·&nbsp;01</span>
         <span className="caption__title">a quiet orrery</span>
+        <span className="caption__title">Ready to commit</span>
       </div>
     </main>
   )
