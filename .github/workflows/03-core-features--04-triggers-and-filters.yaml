@@ -18,9 +18,9 @@ on:
       - reopened
     paths:
       # include markdown files
-      - "03-core-features/filters/*.md"
+      - "Git-course-work/15-core-features/filters/*.md"
       # Exclude txt files
-      - "!03-core-features/filters/*.txt"
+      - "!Git-course-work/15-core-features/filters/*.txt"
 
   ### https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule
   # schedule:
