@@ -75,14 +75,14 @@ jobs:
   #
   #  (They also offer MacOS and Windows runners!)
   ######################################
-  namespace-ubuntu-vm:
-    name: Namespace Ubuntu VM
-    runs-on: namespace-profile-default
-    steps:
-      - name: Show runner info
-        run: |
-          echo "Hello from ${{ runner.os }}-${{ runner.arch }}"
-          echo "Runner name (type): ${{ runner.name }}"
+  # namespace-ubuntu-vm:
+  #   name: Namespace Ubuntu VM
+  #   runs-on: namespace-profile-default
+  #   steps:
+  #     - name: Show runner info
+  #       run: |
+  #         echo "Hello from ${{ runner.os }}-${{ runner.arch }}"
+  #         echo "Runner name (type): ${{ runner.name }}"
   
   ######################################
   #  SELF HOSTED RUNNERS
