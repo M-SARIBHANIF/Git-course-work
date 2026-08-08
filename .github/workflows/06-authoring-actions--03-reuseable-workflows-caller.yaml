@@ -6,7 +6,7 @@ on:
 jobs:
   call-reuseable-workflow-path:
     name: Invoke reuseable workflow with relative path
-    uses: ./.github/workflows/18-authoring-actions--02-reuseable-workflows-source.yaml
+    uses: ./.github/workflows/06-authoring-actions--02-reuseable-workflows-source.yaml
     with:
       foo: bar
       environment: staging
@@ -14,7 +14,7 @@ jobs:
 
   call-reuseable-workflow-sha:
     name: Invoke reuseable workflow with repo + commit hash
-    uses: M-SARIBHANIF/Git-course-work/.github/workflows/18-authoring-actions--02-reuseable-workflows-source.yaml@master
+    uses: M-SARIBHANIF/Git-course-work/.github/workflows/06-authoring-actions--02-reuseable-workflows-source.yaml@master
     with:
       foo: bar
       environment: production
