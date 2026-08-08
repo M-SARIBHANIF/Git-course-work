@@ -1,0 +1,6 @@
+[submodule "18-authoring-actions/javascript-actions"]
+	path = 18-authoring-actions/javascript-actions
+	url = https://github.com/sidpalas/javascript-action-with-build.git
+[submodule "18-authoring-actions/typescript-actions"]
+	path = 18-authoring-actions/typescript-actions
+	url = https://github.com/sidpalas/typescript-action-with-build.git
