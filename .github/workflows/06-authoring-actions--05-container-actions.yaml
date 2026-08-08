@@ -12,7 +12,7 @@ jobs:
         with:
           submodules: true
       - name: Run container action
-        uses: ./06-authoring-actions/container-actions/shell-container-action
+        uses: ./Git-course-work/18-authoring-actions/container-actions/shell-container-action
         id: hello
         with:
           who-to-greet: "from a container github action 👋"
@@ -26,7 +26,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 # v5.0.0
       - name: Run container action
-        uses: ./06-authoring-actions/container-actions/shell-container-action-prebuilt
+        uses: ./Git-course-work/18-authoring-actions/container-actions/shell-container-action-prebuilt
         id: hello
         with:
           who-to-greet: "from a container github action 👋"
@@ -40,7 +40,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 # v5.0.0
       - name: Run container action
-        uses: ./06-authoring-actions/container-actions/python-container-action
+        uses: ./Git-course-work/18-authoring-actions/container-actions/python-container-action
         id: hello
         with:
           who-to-greet: "from a container github action 👋"

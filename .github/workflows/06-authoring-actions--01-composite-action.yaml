@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 # v5.0.0
       - id: composite-action-instance
-        uses: ./06-authoring-actions/composite-action
+        uses: ./Git-course-work/18-authoring-actions/composite-action
         with:
           who-to-greet: "from composite action in hello-world-1!"
       - env:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 # v5.0.0
       - id: composite-action-instance
-        uses: ./06-authoring-actions/composite-action
+        uses: ./Git-course-work/18-authoring-actions/composite-action
         with:
           who-to-greet: "from composite action in hello-world-2!"
       - env:
