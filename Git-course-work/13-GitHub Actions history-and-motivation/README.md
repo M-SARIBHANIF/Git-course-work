@@ -1,4 +1,4 @@
-# 01. History and Motivation
+# 13. History and Motivation
 
 > How software delivery evolved from slow, manual, error-prone releases into the automated pipelines teams rely on today — and why Continuous Integration exists in the first place.
 

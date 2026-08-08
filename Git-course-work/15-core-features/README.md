@@ -1,4 +1,4 @@
-# 03. Core Features
+# 15. Core Features
 
 This module demonstrates the building blocks used in all GitHub Actions workflows: steps, jobs, triggers, variables, secrets, and — critically — the **contexts** that let a workflow read information about itself, its environment, and the event that triggered it.
 

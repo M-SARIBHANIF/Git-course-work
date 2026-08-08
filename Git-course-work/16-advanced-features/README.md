@@ -1,4 +1,4 @@
-# 04. Advanced Features
+# 16. Advanced Features
 
 This module covers several advanced capabilities of GitHub Actions. Each topic is demonstrated by a workflow in [`.github/workflows`](../.github/workflows) whose file name begins with `04-advanced-features--`.
 
