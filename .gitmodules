@@ -4,3 +4,6 @@
 [submodule "Git-course-work/18-authoring-actions/javascript-actions/typescript-action-with-build"]
 	path = Git-course-work/18-authoring-actions/javascript-actions/typescript-action-with-build
 	url = https://github.com/sidpalas/typescript-action-with-build.git
+[submodule "Git-course-work/18-authoring-actions/container-actions/shell-container-action"]
+	path = Git-course-work/18-authoring-actions/container-actions/shell-container-action
+	url = https://github.com/sidpalas/shell-container-action.git
