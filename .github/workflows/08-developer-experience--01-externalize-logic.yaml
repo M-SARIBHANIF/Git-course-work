@@ -25,6 +25,6 @@ jobs:
           name: task
           version: v3.44.1
       - name: Echo Hello
-        working-directory: ./08-developer-experience/workflows
+        working-directory: ./Git-course-work/20-developer-experience/workflows
         run: |
           task hello-world-task

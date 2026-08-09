@@ -17,4 +17,4 @@ jobs:
         uses: namespacelabs/breakpoint-action@664d004eae0e89e248fafe14fd5e97d28440a85e # v0.0.13
         with:
           duration: 10m
-          authorized-users: sidpalas
+          authorized-users: MSarib
